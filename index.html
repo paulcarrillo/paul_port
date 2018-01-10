@@ -10,163 +10,206 @@
   </head>
   <body>
     <!--This is the navigation -->
-    <div class="nav">
+    <nav>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link active" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#resume">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
     </div>
+  </nav>
     <!-- end of navigation -->
 
     <!-- This is gonna be the carousel -->
     <div class="main">
+      <img class="img-fluid" src="https://cdn.lynda.com/course/83603/83603-636216266356158373-16x9.jpg">
       <div>
-        <h1>Web Developer</h1>
-        <button>Learn More</button>
+      <!--  <h1>Web Developer</h1>
+        <button>Learn More</button> -->
       </div>
     </div>
     <!-- end of main container -->
 
-    <!--About sectino -->
-    <div class="about">
-      <h1>About Me</h1>
-      <p>I am highly motivated to learn and create. Driven by the love
-        I have for learning and exploring new technologies and concepts.
-        I continually push myself to learn new tech to refine my skills.
-        I love the challenge of coding and growing as a developer
-        and person.
-      </br>
-      </br>
-        Programming is my passion and I enjoy creating exiting products and sites
-        that hopefully people will love to visit.
-      </p>
+    <!--About section -->
+    <div id="about" class="container-fluid about">
+        <div class="row align-items-start">
+				<div class="col-8 about-text">
+					<div class="about-text">
+            <h1>About Me</h1>
+            <p>I am highly motivated to learn and create. Driven by the love
+              I have for learning and exploring new technologies and concepts.
+              I continually push myself to learn new tech to refine my skills.
+              I love the challenge of coding and growing as a developer
+              and person.
+            </br>
+            </br>
+              Programming is my passion and I enjoy creating exiting products and sites
+              that hopefully people will love to visit.
+            </p>
+					</div>
+				</div>
+
+      <div class="col-4 skills">
+      <div class="row align-items-end">
+        <div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="single-about-box">
+								<i class="fa fa-code"></i>
+								<h2>Development</h2>
+								<p>Single web pages to complex web-based applications.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="single-about-box">
+								<i class="fa fa-paint-brush"></i>
+								<h2>Design</h2>
+								<p>Creating images and text to form visual representations of ideas and messages.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="single-about-box">
+								<i class="fa fa-tablet"></i>
+								<h2>Apps</h2>
+								<p>Software designed for your smartphones and other mobile devices.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="single-about-box">
+								<i class="fa fa-globe"></i>
+								<h2>Marketing</h2>
+								<p>Creating and delivering content that helps you reach your targets. </p>
+							</div>
+						</div>
+					</div>
+        </div>
+      </div>
     </div>
-    <div class="col-lg-6 col-md-6">
-		  <div class="single-about-box">
-			  <i class="fa fa-globe"></i>
-					<h3>Web Development</h3>
-					<p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
-				</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="single-about-box">
-						<i class="fa fa-globe"></i>
-						  <h3>Web Applicatios</h3>
-							<p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
-					  </div>
-						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="single-about-box">
-								<i class="fa fa-globe"></i>
-								<h3>Web Design</h3>
-								<p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6">
-							<div class="single-about-box">
-								<i class="fa fa-globe"></i>
-								<h3>Marketing</h3>
-								<p>Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.</p>
-							</div>
+  </div>
+
     <!--end of the about -->
 
     <!--resume section -->
-      <div class="resume">
-        <h1>Resume</h1>
-        <p>Here is my resume cotaines the work and projects that I have been currently
-        been working on</p>
-        <button>DOWNLOAD RESUME</button>
+    <div class="container-fluid">
+      <div id="resume" class="row justify-content-center resume">
+        <div class="col-lg-10 text-center">
+          <h1>Resume</h1>
+          <p>Please feel free to take a look over my resume.</p>
+          <button class="btn btn-primary btn-lg">DOWNLOAD RESUME</button>
+        </div>
       </div>
+    </div>
     <!-- end of the resume-->
 
     <!-- This is the education section-->
-      <div class="education">
-        <h3>Education</h3>
-        <p>I have had the great opportunity to learn from some great educational resourses
-        outside of the skills that I have aquired from self teaching</p>
-        <div class="education_boxes">
-          <h3>DevPoint Labs</h3>
-          <p>Progr bootcamp</p>
-        </div>
-        </div>
-        <div class="education_boxes">
-          <h3>Udacity</h3>
-          <p>Online Digital Education</p>
-        </div>
-        </div>
-        <div class="education_boxes">
-          <h3>freeCodeCamp</h3>
-          <p>Online Community of Developers and resources</p>
+      <div id="education" class="education">
+        <h1 class="education-title">Education</h1>
+        <ul class="list-unstyled">
+    <li class="media">
+      <img class="mr-3" src="https://avatars3.githubusercontent.com/u/1916665?s=200&v=4" alt="">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Udacity</h5>
+        <p>Udacity is a for-profit educational organization founded by Sebastian Thrun, David Stavens, and Mike Sokolsky offering massive open online courses.</p>
       </div>
+    </li>
+    <li class="media my-4">
+      <img class="mr-3" src="http://www.bootcamps.in/wp-content/uploads/2017/01/DevPointLabs.jpg" alt="">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">DevPoint Labs</h5>
+        <p>DevPoint Labs is an accelerated coding bootcamp with an intimate learning experience. An accelerated learning model provides an immersive experience into programming.</p>
+      </div>
+    </li>
+    <li class="media">
+      <img class="mr-3" src="https://avatars1.githubusercontent.com/u/28826863?s=200&v=4" alt="">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">freeCodeCamp</h5>
+      <p>Interactive learning web platform, an online community forum, chat rooms, Medium publications, and local organizations that intend to make learning web development accessible to anyone. </p>
+      </div>
+    </li>
+  </ul>
     </div>
     <!-- end of the education -->
 
-    <!--quote section -->
-    <div class="quote">
-      <h1>TO BE OR NOT BE A BADASS PROGRAMMER MASTER OF THE UNIVERSE</h1>
+  <!--quote section -->
+    <div class="container-fluid quote">
+      <div class="quote row justify-content-center">
+        <h3><pre><code>&lt;p&gt;"Everybody in this country should learn to program a computer,because it
+teaches you to think"&lt;/p&gt;
+
+&lt;p&gt;Steve Jobs&lt;/p&gt;
+</code></pre></h3>
     </div>
+  </div>
     <!-- section -->
 
     <!-- This is the projectssection -->
-      <div class="projetcs">
-        <h2>Portfolio</h2>
-        <p>Here are some of my curret projects! Thank you for your time and interest
-        in seeing my work</p>
-        <div class="portfolio-container">
-				<div class="portfolio-content portfolio-items mockup icon">
-				<div class="portfolio-content portfolio-items ui mockup">
-					<div class="portfolio-bg-items">
-						<div class="portfolio-bg protfolio-bg-4">
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="portfolio-content portfolio-items patterns icon">
-					<div class="portfolio-bg-items">
-						<div class="portfolio-bg protfolio-bg-5">
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="portfolio-content portfolio-items theme patterns">
-					<div class="portfolio-bg-items">
-						<div class="portfolio-bg protfolio-bg-6">
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="portfolio-content portfolio-items patterns icon">
-					<div class="portfolio-bg-items">
-						<div class="portfolio-bg protfolio-bg-8">
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
+      <div id="projects" class=" container-fluid projects">
+        <div class="row justify-content-center">
+          <h1>Portfolio</h1>
+        </div>
+        <div class= "row justify-content-center">
+          <p class="port-paragraph">Here are some of my curret projects! Thank you for your time and interest
+          in seeing my work.</p>
+        </div>
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/img3.png" alt="application screen shot">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">Nova</h5>
+          <p>Single-page, responsive speech recognition application built with React.js and Redux. Developed a full-application that uses Artyom.js and External API’s to mimic features of Amazon’s Alexa.</p>
       </div>
+      </li>
+      <li class="media my-4">
+        <img class="mr-3" src="images/img1.png" alt="application screen shot">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">My Reads</h5>
+          <p>Developed a virtual bookcase (single page app) using React to store books and manage state and created functionality to move books from one shelf to another.
+          Integrated React Router 4 for navigation within the app.</p>
+      </div>
+    </li>
+    <li class="media">
+      <img class="mr-3" src="images/img2.png" alt="application screen shot">
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Now Delicious</h5>
+        <p>Full stack application. Let's users search, geolocate, and organize their favorite restaurants from around the world!</p>
+      </li>
+    </ul>
+  </div>
+</div>
     <!-- this is the end of the projects section -->
 
-    <!-- Contact area -->
-    <div class="contact_area">
-      <h1>Contact me</h1>
-        <p>If you would like to get in contact</p>
-      <div class="contact-address">
-        <p>Salt Lake City Utah</p>
-      </div>
-      <div class="contact-mail">
-        <p><span>Emil:</span>paulcarrillo05@gmail.com</p>
-        <p><span>Phone:</span>801-664-9214</p>
-      </div>
-      <div class="col-lg-6">
+
+    <!--Start Contact-->
+	<div id="contact" class="concat contact-area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="contact-left">
+						<div class="contact-details">
+							<h1>Contact Me</h1>
+							<p>If you would like to reach out here is some of my contact information looking foward to getting in touch.</p>
+						</div>
+
+						<div class="contact-address">
+							<p>74 East Resaca Drive<br/> Sandy, UT<br/>84070</p>
+						</div>
+
+						<div class="contact-mail">
+							<p><span>Email:</span> paulcarrillo05@gamil.com</p>
+							<p><span>Phone:</span> 1-801-664-9214</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
 					<div class="contact-form">
 						<form action="#">
 							<div class="form-group">
@@ -181,44 +224,38 @@
 								<label for="message">Message <span>*</span></label>
 								<textarea class="form-control" id="message" rows="10"></textarea>
 							</div>
-							<button type="submit" class="btn submit-btn">Contact me</button>
+							<button type="submit" class="btn btn-primary btn-sm">Contact me</button>
 						</form>
-					</div>
-				</div>
-    </div>
-    <!-- this is the end of the Contact area -->
-
-    <!-- this is the footer -->
-    <div class="footer-area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<p class="copyright">
-						Built by Paul Carrillo
-					</p>
-					<div class="footer-social-links">
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-pinterest"></i></a>
-						<a href="#"><i class="fa fa-google-plus"></i></a>
-						<a href="#"><i class="fa fa-dribbble"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+<!-- end of the contact -->
+
+<!--footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+        <div class="footer-social-links">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+					</div>
+          <p class="copyright">
+						Copyright 2018 Paul Carrillo. All rights reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
   <!-- end of the footer -->
-  </body>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    <script src="./assets/js/popper.min.js"></script>
-	  <script src="./assets/js/bootstrap.min.js"></script>
-	  <script src="./assets/js/owl.carousel.min.js"></script>
-	  <script src="./assets/js/isotope.pkgd-3.0.4.min.js"></script>
-	  <script src="./assets/js/masonry.pkgd.min-4.2.0.js"></script>
-	  <!--	<script src="./assets/js/jquery.mCustomScrollbar.concat.min.js"></script>-->
-	  <script src="./assets/js/main.js"></script>
+
 </html>

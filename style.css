@@ -1,1 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  position: relative;
+}
 
+a {
+  color: purple;
+}
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+nav {
+  color: white;
+}
+
+.about-text {
+  padding-top: 60px;
+}
+
+.about {
+  background-color: #F5F5F5;
+  height: 500px;
+}
+
+.skills {
+  padding-top: 35px;
+}
+
+.col-8 {
+  padding-bottom: 80px;
+}
+
+.resume {
+  background-color: #E8E8E8;
+  height: 500px;
+  padding-top: 200px;
+}
+
+.education {
+  background-color: #F5F5F5;
+  height: 700px;
+}
+
+.education-title {
+  text-align: center;
+}
+
+.quote {
+  background-color: purple;
+  padding-top: 50px;
+  height: 300px;
+}
+
+h3 {
+  color: white;
+}
+
+.port-paragraph {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.projects {
+  background-color: #E8E8E8;
+}
+
+.concat {
+  padding-top: 35px;
+  background-color: purple;
+  height: 600px;
+  color: white;
+}
+
+.fa-globe, .fa-code, .fa-paint-brush, .fa-tablet {
+  font-size: 35px;
+  color: purple;
+}
+
+.footer-area {
+  height: 200px;
+}
+
+.footer-social-links {
+  padding-top: 80px;
+  font-size: 55px;
+}
+
+.copyright {
+  font-size: 14px;
+}
